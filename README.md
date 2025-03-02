@@ -3,11 +3,6 @@
 ## O que é?
 O Desafio Pokémon CTG foi o projeto de desafio escolhido para a seleção da extensão dos cursos de tecnologia da Fábrica de Software da Unipê 2025.1.
 
-## Tecnologias Usadas
-- HTML, CSS e JavaScript
-- Next.js
-- Tailwind CSS
-
 ## Escopo do Projeto
 
 ### Página Inicial
@@ -20,6 +15,16 @@ Na página de cartas, o usuário terá acesso a uma seção contendo diversas ca
 
 ## Informações Técnicas
 
+### Tecnologias Usadas
+
+- HTML, CSS e JavaScript
+- Next.js
+- Tailwind CSS
+
+### Deploy
+- Para o deploy do projeto foi usado a Netlify para hospedar a aplicação web.
+- Link do projeto: https://bucolic-croquembouche-57e631.netlify.app/
+  
 ### Estruturas de Pastas
 
 + As imagens e ícones do projeto estão presentes no caminho: './public/assets/'
