@@ -26,14 +26,20 @@ export default function CartaPokemon() {
         <h2>Quem é esse pokémon??</h2>
         <div className="container">
           <div class="entrada">
-            <input
-              className="input-procurador"
-              type="text"
-              placeholder="Digite o nome do pokémon"
-              value={searchCarta}
-              onChange={(e) => setSearchCarta(e.target.value)}
+            <img
+              src="./assets/image-pokebola.png"
+              alt=""
             />
-            <button onClick={ProcuraCarta}>Buscar</button>
+            <div>
+              <input
+                className="input-procurador"
+                type="text"
+                placeholder="Digite o nome do pokémon"
+                value={searchCarta}
+                onChange={(e) => setSearchCarta(e.target.value)}
+              />
+              <button onClick={ProcuraCarta}>Buscar</button>
+            </div>  
           </div>
           <div>
             {cartaData && (

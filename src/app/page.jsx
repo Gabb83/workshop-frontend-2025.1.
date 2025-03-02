@@ -2,7 +2,7 @@
 
 import Header from "@/components/Header/Header"
 import Sobre from "@/components/Sobre/Sobre";
-import Carrossel from "@/components/Carrossel/Carrossel";
+import Carrossel from "@/components/Destaques/Destaques";
 import Footer from "@/components/Footer/Footer";
 
 export default function Home() {

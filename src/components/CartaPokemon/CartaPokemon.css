@@ -1,5 +1,6 @@
 section.procura-pokemon > h2 {
     text-align: center;
+    margin: 40px 0px;
 }
 
 div.container{
@@ -10,24 +11,35 @@ div.container{
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    height: 500px;
+    height: 650px;
 }
 
 div.entrada{
     display: flex;
     flex-direction: column;
-    align-items: end;
-    row-gap: 10px;
+    align-items: center;
+    row-gap: 40px;
 }
 
-div.entrada > input{
+div.entrada > img {
+    width: 70px;
+}
+
+div.entrada > div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+div.entrada > div > input{
     width: 300px;
     height: 30px;
     border: inset;
     border-radius: 5px;
 }
 
-div.entrada > button {
+div.entrada > div > button {
     background-color: oklch(0.707 0.165 254.624);
     color: black;
     font-weight: 700;
@@ -36,10 +48,10 @@ div.entrada > button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.5s linear; /* transition the transform property */
+    transition: background 0.4s linear; /* transition the transform property */
 }
 
-div.entrada > button:hover {
+div.entrada > div > button:hover {
     background-color: oklch(0.627 0.194 149.214); /* Aumenta o tamanho em 10% */
     color: white;
 }

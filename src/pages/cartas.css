@@ -1,5 +1,36 @@
 body{
     margin: 0px;
+    font-family:'Times New Roman', Times, serif
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+figure > img{
+    width: 50px;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    list-style-type: none;
 }
 
 h2.t2{

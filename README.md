@@ -12,7 +12,7 @@ O Desafio Pokémon CTG foi o projeto de desafio escolhido para a seleção da ex
 
 ### Página Inicial
 
-Na página inicial, o usuário terá acesso ao mini menu no header onde ele poderá navegar pelas páginas, início e cartas. Abaixo disso haverão algumas seções para informações, como por exemplo a seção: sobre o anime. Na qual apresenta uma pequena sinopse do anime que conta com um botão que leva o usuário para um site externo, caso ele deseje a continuar a ler o restante da história, o carrossel de pokémons e por fim chegando ao final da página, no Footer haveram alguns links navegáveis que levarão o usuário as respectivas redes sociais.
+Na página inicial, o usuário terá acesso ao mini menu no header onde ele poderá navegar pelas páginas, início e cartas. Abaixo disso haverão algumas seções para informações, como por exemplo a seção: sobre o anime. Na qual apresenta uma pequena sinopse do anime que conta com um botão que leva o usuário para um site externo, caso ele deseje a continuar a ler o restante da história, os destaques que traz um botão que endereça o usuário para o site oficial do pokémon e por fim chegando ao final da página, no Footer haveram alguns links navegáveis que levarão o usuário as respectivas redes sociais.
 
 ### Página de Cartas
 

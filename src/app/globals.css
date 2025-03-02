@@ -4,5 +4,6 @@
 
 body{
     background-color: oklch(0.282 0.091 267.935);
+    font-family:'Times New Roman', Times, serif;
     color: aliceblue;
 }
