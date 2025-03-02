@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+h2.t2{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+section.container{
+    background-color: oklch(0.282 0.091 267.935);
+    background: linear-gradient(to bottom, oklch(0.282 0.091 267.935), oklch(0.379 0.146 265.522), oklch(0.372 0.044 257.287));
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 40px;
+}
+
+img{
+    width: 170px;
+    border-radius: 10px;
+}
+
+div.card{
+    border: 1px inset rgba(255, 255, 255, 0.425);
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px 15px;
+}
+
+footer > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+a > img{
+    width: 30px;
+}
